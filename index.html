@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akanksha Mhadolkar Portfolio</title>
+    <!-- <link rel="icon" type="image/x-icon" href="am_mono.png"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- <img src="am_mono.png" alt="" class="icon-logo"> -->
+    <div id="loading-screen">
+        <div class="minecraft-loader">
+            <div class="dirt-block"></div>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <div id="scene-container"></div>
+    
+    <nav id="minecraft-menu">
+        <ul>
+            <li data-section="summary">Summary</li>
+            <li data-section="education">Education</li>
+            <li data-section="skills">Skills</li>
+            <li data-section="experience">Experience</li>
+            <li data-section="projects">Projects</li>
+            <li data-section="contact">Contact</li>
+        </ul>
+    </nav>
+
+    <div id="content-overlay"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
+    
+    <script type="module" src="js/main.js"></script>
+</body>
+</html> 
