@@ -92,7 +92,7 @@ export const content = {
             <p>Email: <a href="mailto:akankshamhadolkar@gmail.com">akankshamhadolkar@gmail.com</a></p>
             <p>GitHub: <a href="https://github.com/Akankshaaaa" target="_blank">github.com/Akankshaaaa</a></p>
             <p>LinkedIn: <a href="https://linkedin.com/in/akanksha-mhadolkar/" target="_blank">linkedin.com/in/akanksha-mhadolkar/</a></p>
-            <p>Resume: <a href="Akanksha_Mhadolkar.pdf" download>Download Resume</a></p>
+            <p>Resume: <a href="./assets/Akanksha_Mhadolkar.pdf" type="application/pdf" download="Akanksha_Mhadolkar.pdf">Download Resume</a></p>
         `
     }
 }; 
